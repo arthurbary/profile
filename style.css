@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Orbitron:wght@500&display=swap');
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+
+
+
+body {
+  background: #051310;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 20px;
+  color: #003049;
+  line-height: lighter;
+}
+
+img{
+  background-color: #FFFFFF;
+  border: 5px ridge #051310;
+  border-color: #006CA5 #006CA5 #003049 #003049;
+}
+
+h4 {
+  margin-left: 200px;
+}
+
+ul>li>a {
+  font-size: 60px;
+  color: #003049;
+}
+
+a {
+  font-size: 25px;
+  font-family: 'Inconsolata', monospace;
+  color: #003049;
+
+}
+
+ul>li {
+  text-align: match-parent;
+}
+
+.container{
+  width: 900px;
+  margin: 75px auto;
+}
+
+.card{
+  background-color: #FFFFFF;
+  padding: 50px;
+  margin: 15px;
+  text-align: center;
+}
+.top-radius{
+  border-radius: 20px 20px 0px 0px;
+}
+
+.bottom-radius{
+  border-radius: 0px 0px 20px 20px;
+}
+
+.btn-sqr{
+  background-color: #003049;
+  color: #FFFFFF;
+  padding: 12px;
+  border-radius: 5px;
+}
+.btn-sqr:hover{
+  background-color: #051310;
+  color: #FFFFFF;
+  padding: 12px;
+  border-radius: 5px;
+}
+
+a:hover{
+  color:#051310;
+}
+
+.list-inline li {
+    display: inline;
+    padding: 30px;
+}
+
+
+
+
